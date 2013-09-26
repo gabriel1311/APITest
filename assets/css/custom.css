@@ -1,0 +1,28 @@
+/**
+ * All your custom CSS should go into this file
+ */
+
+
+      body {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        
+      }
+
+
+
+
+.imgExpande li img { 
+
+	/* Aqui é o tamanho da imagem */ 
+	margin-left: 0px; /* Espaço entre as imagem */ 
+	-webkit-transition: 1s all ease; /* É para pega no Chrome e Safira */ 
+	-moz-transition: 1s all ease; /* Firefox */ 
+	-o-transition: 1s all ease; /* Opera */ 
+} 
+
+.imgExpande li img:hover { 
+	-moz-transform: scale(1.2); 
+	-webkit-transform: scale(1.2); 
+	-o-transform: scale(1.2); 
+} 
